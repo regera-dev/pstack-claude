@@ -16,16 +16,6 @@ const rules = [
     phrase: "fall back to `run` when the repo has none",
   },
   {
-    source: "#71 generated skill name",
-    file: "create-verification-skill/SKILL.md",
-    phrase: "YAML frontmatter (`name: verify`",
-  },
-  {
-    source: "#71 preserve the original generator trigger",
-    file: "create-verification-skill/SKILL.md",
-    phrase: "make a control skill for this repo",
-  },
-  {
     source: "#71 maintain older generated skills",
     file: "maintain-verification-skill/SKILL.md",
     phrase: "or `.claude/skills/verify-*/` from an older generator",
